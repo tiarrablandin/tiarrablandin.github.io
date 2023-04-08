@@ -1,27 +1,22 @@
 <main class="mt-5">
   <div id="intro" class="bg-image">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.45)">
+    <div class="" style="">
       <div
         class="container d-flex align-items-center justify-content-center text-center h-100"
       >
-        <div class="text-white">
+        <div id="title" class="">
           <h1 id="home" class="mb-3">Tiarra Blandin</h1>
-          <h5 class="mb-4">Full-Stack Java Developer</h5>
+          <h4 class="mb-4">Full-Stack Developer</h4>
         </div>
       </div>
     </div>
   </div>
-  <br />
 
-  <div class="container">
+  <div class="">
     <!-- About Me -->
-    <div class="card rounded-5 border-light">
-      <div class="row">
+    <div id="about" class="row">
         <div class="col-md-4 gx-4 m-4">
-          <div
-            class="bg-image hover-overlay ripple shadow-2-strong rounded-5"
-            data-mdb-ripple-color="light"
-          >
+          <div>
             <img
               src="https://i.imgur.com/eCr6VpI.jpg"
               class="img-fluid rounded-5 border-light"
@@ -31,7 +26,7 @@
         </div>
 
         <div class="col-md-6 gx-4 m-4 text-center">
-          <h4 id="about"><strong>About Me</strong></h4>
+          <h4><strong>About Me</strong></h4>
           <p class="">
             I started off in retail sales and eventually started a book editing
             business. While I love editing, I always felt like it wasn't enough
@@ -52,7 +47,6 @@
             href="https://www.linkedin.com/in/tiarrablandin/"
             class="m-3"
             target="_blank"
-            style="color: lightgray"
             >
             <fa-icon [icon]="faLinkedin" size="2x"></fa-icon>
           </a>
@@ -60,60 +54,53 @@
           href="https://github.com/tiarrablandin"
           class="m-3"
           target="_blank"
-          style="color: lightgray"
           >
           <fa-icon [icon]="faGithub" size="2x"></fa-icon>
             </a>
           </div>
         </div>
-      </div>
     </div>
-    <br />
 
     <!-- Stack -->
-    <div class="card rounded-5 border-light">
-      <div class="row d-flex justify-content-center">
+      <div id="stack" class="row d-flex justify-content-center">
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
-          <p><strong>Languages</strong></p>
+          <h4><strong>Languages</strong></h4>
           <p class="">Java, JavaScript</p>
-          <p><strong>Web</strong></p>
+          <h4><strong>Web</strong></h4>
           <p class="">
             JavaScript, TypeScript, HTML, CSS, SCSS, Bootstrap, Material Design Bootstrap for Angular, Tailwind CSS
           </p>
-          <p><strong>Database</strong></p>
+          <h4><strong>Database</strong></h4>
           <p class="">SQL, JPA, JDBC, JPQL</p>
         </div>
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
-          <p><strong>API's</strong></p>
+          <h4><strong>API's</strong></h4>
           <p class="">REST, JSON, AJAX</p>
-          <p><strong>Frameworks</strong></p>
+          <h4><strong>Frameworks</strong></h4>
           <p class="">Angular, React, Spring MVC, Spring Boot, Spring Data</p>
-          <p><strong>Methodologies</strong></p>
+          <h4><strong>Methodologies</strong></h4>
           <p class="">Agile, SCRUM, Test Driven Development</p>
         </div>
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
-          <p><strong>Tools</strong></p>
+          <h4><strong>Tools</strong></h4>
           <p class="">
             IntelliJ, VS Code, STS, Eclipse, Postman, MySQL Workbench
           </p>
         </div>
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
           <br /><br /><br /><br /><br />
-          <h3 id="technologies"><strong>Technologies</strong></h3>
+          <h3><strong>Technologies</strong></h3>
         </div>
       </div>
-    </div>
-    <br />
 
     <!-- Education -->
-    <div class="card rounded-5 border-light">
-      <div class="row">
+      <div id="education" class="row">
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
           <br /><br /><br /><br /><br />
-          <h3 id="education"><strong>Education</strong></h3>
+          <h3><strong>Education</strong></h3>
         </div>
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
-          <p><strong>Degrees</strong></p>
+          <h4><strong>Degrees</strong></h4>
           <p>BA - English</p>
           <p>Metropolitan State University of Denver</p>
           <br />
@@ -121,7 +108,7 @@
           <p>Arapahoe Community College</p>
         </div>
         <div class="col-md-3 gx-5 mb-4 mt-4 text-center">
-          <p><strong>Certifications</strong></p>
+          <h4><strong>Certifications</strong></h4>
           <p>Full-stack Java Developer</p>
           <p>Skill Distillery</p>
           <br />
@@ -130,27 +117,12 @@
         </div>
       </div>
     </div>
-  </div>
   <br /><br /><br /><br />
 
   <!-- experience -->
-
-  <div class="container">
+  <div class="">
     <section class="text-center">
       <h3 id="projects" class="mb-5"><strong>Projects</strong></h3>
-
-      <!-- <div class="container" #container>
-        <div
-          class="left"
-          *ngIf="totalPages > 1"
-          (click)="currentPage != 1 && changePage(-1)"
-          [ngClass]="{ disabled: currentPage === 1 }"
-        ></div>
-        <div class="cards" [ngClass]="{ 'w-100': totalPages === 1 }">
-          <div
-            class="overflow"
-            [ngStyle]="{left: pagePosition }"
-          > -->
 
       <!-- Menrva Books -->
       <div class="row">
@@ -160,7 +132,7 @@
               class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
-              <a href="http://www.menrvabooks.com" target="_blank">
+              <a href="https://www.menrvabooks.com" target="_blank">
                 <img
                   src="https://i.imgur.com/wOLPyAh.jpg"
                   class="img-responsive img-fluid hover-shadow rounded-3 mt-4 mb-3"
@@ -171,13 +143,12 @@
             <div class="card-body">
               <h5 class="card-title">
                 <a
-                  href="http://www.menrvabooks.com"
+                  href="https://www.menrvabooks.com"
                   class="text-light"
                   target="_blank"
                   >Menrva Books</a
                 >
               </h5>
-              <p class="card-text">Coming soon!</p>
             </div>
           </div>
         </div>
@@ -189,7 +160,7 @@
               class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
-              <a href="http://www.grimoirecollective.com" target="_blank">
+              <a href="https://www.grimoirecollective.com" target="_blank">
                 <img
                   src="https://i.imgur.com/wOLPyAh.jpg"
                   class="img-responsive img-fluid hover-shadow rounded-3 mt-4 mb-3"
@@ -200,13 +171,12 @@
             <div class="card-body">
               <h5 class="card-title">
                 <a
-                  href="http://www.grimoirecollective.com"
+                  href="https://www.grimoirecollective.com"
                   class="text-light"
                   target="_blank"
                   >Grimoire Collective</a
                 >
               </h5>
-              <p class="card-text">Coming soon!</p>
             </div>
           </div>
         </div>
@@ -218,7 +188,7 @@
               class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
-              <a href="http://www.allotropeeditorial.com" target="_blank">
+              <a href="https://www.allotropeeditorial.com" target="_blank">
                 <img
                   src="https://i.imgur.com/wOLPyAh.jpg"
                   class="img-responsive img-fluid hover-shadow rounded-3 mt-4 mb-3"
@@ -229,13 +199,12 @@
             <div class="card-body">
               <h5 class="card-title">
                 <a
-                  href="http://www.allotropeeditorial.com"
+                  href="https://www.allotropeeditorial.com"
                   class="text-light"
                   target="_blank"
                   >Allotrope Editorial</a
                 >
               </h5>
-              <p class="card-text">Coming soon!</p>
             </div>
           </div>
         </div>
@@ -278,17 +247,59 @@
                 target="_blank"
                 >GitHub Repository</a
               >
-              <p class="card-text">
+              <!-- <p class="card-text">
                 Toon Throwback is an application built simply for nostalgic
                 purposes. We wanted to do something fun and what's more fun than
                 throwback cartoons?
-              </p>
+              </p> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Pizza Palette -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div
+            class="bg-image hover-overlay ripple"
+            data-mdb-ripple-color="light"
+            >
+              <a
+                href="http://18.144.181.105:8080/PizzaPalette/"
+                target="_blank"
+                >
+                <img
+                src="https://i.imgur.com/Jo5t230.png"
+                class="img-responsive img-fluid hover-shadow rounded-3 mt-4 mb-3"
+                style="height: 300px; width: 370px"
+                />
+              </a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <a
+                  href="http://18.144.181.105:8080/PizzaPalette/"
+                  class="text-light"
+                  target="_blank"
+                  >Pizza Palette</a
+                  >
+                </h5>
+                <a
+                href="https://github.com/tiarrablandin/MidtermProjectMe"
+                class="text-light"
+                target="_blank"
+                >GitHub Repository</a
+                >
+                <!-- <p class="card-text">
+                  Pizza Palette is an application that we built for pizza
+                connoisseurs to search for pizza restaurants using niche
+                keywords.
+              </p> -->
             </div>
           </div>
         </div>
 
         <!-- Rock Cycles -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <!-- <div class="col-lg-4 col-md-6 mb-4">
           <div class="card">
             <div
               class="bg-image hover-overlay ripple shadow-1-strong"
@@ -324,52 +335,10 @@
               </p>
             </div>
           </div>
-        </div>
-
-        <!-- Pizza Palette -->
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card">
-            <div
-              class="bg-image hover-overlay ripple"
-              data-mdb-ripple-color="light"
-            >
-              <a
-                href="http://18.144.181.105:8080/PizzaPalette/"
-                target="_blank"
-              >
-                <img
-                  src="https://i.imgur.com/Jo5t230.png"
-                  class="img-responsive img-fluid hover-shadow rounded-3 mt-4 mb-3"
-                  style="height: 300px; width: 370px"
-                />
-              </a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title">
-                <a
-                  href="http://18.144.181.105:8080/PizzaPalette/"
-                  class="text-light"
-                  target="_blank"
-                  >Pizza Palette</a
-                >
-              </h5>
-              <a
-                href="https://github.com/tiarrablandin/MidtermProjectMe"
-                class="text-light"
-                target="_blank"
-                >GitHub Repository</a
-              >
-              <p class="card-text">
-                Pizza Palette is an application that we built for pizza
-                connoisseurs to search for pizza restaurants using niche
-                keywords.
-              </p>
-            </div>
-          </div>
-        </div>
+        </div> -->
 
         <!-- Book Directory -->
-        <div class="col-lg-4 col-md-6 mb-4">
+        <!-- <div class="col-lg-4 col-md-6 mb-4">
           <div class="card">
             <div
               class="bg-image hover-overlay ripple"
@@ -408,7 +377,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
       <!-- <div
               class="right"
