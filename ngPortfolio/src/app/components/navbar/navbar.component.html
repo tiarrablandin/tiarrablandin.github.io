@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
   <div class="container-fluid">
     <!-- Navbar brand -->
-    <a class="navbar-brand nav-link" href="#home"> TB </a>
+    <!-- <a class="navbar-brand nav-link" href="#home"> TB </a> -->
 
     <!-- Nav Links -->
     <!-- <button class="navbar-toggler" type="button" (click)="basicNav.toggle()"> -->
@@ -14,37 +14,28 @@
       mdbCollapse
       #basicNav="mdbCollapse"
     > -->
-      <ul
-        class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center text-center"
-      >
-        <a class="nav-link" aria-current="page" href="#home">Home</a>
-        <a class="nav-link" href="#about">About Me</a>
-        <a class="nav-link" href="#technologies">Technologies</a>
-        <a class="nav-link" href="#education">Education</a>
-        <a class="nav-link" href="#experience">Experience</a>
-        <a class="nav-link" href="#projects">Projects</a>
-      </ul>
 
-      <ul class="navbar-nav d-flex flex-row justify-content-center">
+      <ul id="social" class="navbar-nav d-flex flex-row justify-content-center">
         <li class="nav-item me-3 me-lg-0 icon">
           <a
-            class="nav-link"
             href="https://www.linkedin.com/in/tiarrablandin/"
-            rel="nofollow"
+            class="m-3"
             target="_blank"
-          >
-            <em class="fab fa-linkedin fa-lg"></em>
+            >
+            <fa-icon [icon]="faLinkedin" size="2x" id="linkedin"></fa-icon>
           </a>
         </li>
-        <li class="nav-item me-3 me-lg-0 icon">
+        <li class="nav-item me-3 me-lg-3 icon">
           <a
-            class="nav-link"
-            href="https://github.com/tiarrablandin"
-            rel="nofollow"
-            target="_blank"
+          href="https://github.com/tiarrablandin"
+          class="m-3"
+          target="_blank"
           >
-            <em class="fab fa-github fa-lg"></em>
-          </a>
+          <fa-icon [icon]="faGithub" size="2x" id="git"></fa-icon>
+            </a>
+        </li>
+        <li>
+          <a id="resume" class="nav-item me-3 me-lg-2 btn btn-outline rounded-4" style="border: 2px solid #DCDCDC; color: #DCDCDC;" routerLink="/home" routerLinkActive="active" (click)=openPdf()>Resume</a>
         </li>
       </ul>
     </div>

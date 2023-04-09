@@ -7,3 +7,24 @@
   position: relative;
   left: 5px;
 }
+
+#social{
+  transition: all 0.5s ease-out;
+  &#social:hover{
+    transform:scale(1.025);
+    transition: all 0.5s ease-in-out;
+  }
+}
+
+#linkedin, #git{
+  color: #DCDCDC;
+  transition: all 0.5s ease-out;
+  &#linkedin:hover{
+    transform:scale(1.025);
+    transition: all 0.5s ease-in-out;
+  }
+
+  #resume{
+    background-color: transparent;
+  }
+}
